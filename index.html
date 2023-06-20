@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <title>Piggy Bankist | When Banking meets Minimalist</title>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="img/logo.png" alt="Bankist logo" class="nav__logo" id="logo" /> <h1>Piggy Bank</h1>
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Features</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Operations</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Testimonials</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="/">Open account</a>
+        </li>
+      </ul>
+      <img class="hamburger" src="img/hamburger.png" alt="" />
+    </nav>
+
+    <div class="header__title">
+      <section class="header-content">
+        <h1>
+          When
+          <!-- Green highlight effect -->
+          <span class="highlight">piggy banking</span>
+          meets<br />
+          <span class="highlight">digital money</span>
+        </h1>
+        <h4>A digital banking experience for a technology-driven life.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      </section>
+
+      <img src="img/hero.png" class="header__img" alt="Minimalist bank items" />
+    </div>
+  </header>
+
+  <section class="section section-1 " id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Features</h2>
+      <h3 class="section__header">
+        Everything you need in a modern bank and more.
+      </h3>
+    </div>
+
+    <div class="features">
+      <section class="feature-one">
+        <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital bank</h5>
+          <p>
+            This bank uses digital watches and credit cards to purchase products and services.
+          You can cash-in money in digital banks too like G-cash, Paymaya and the likes.
+          </p>
+        </div>
+      </section>
+      <section class="feature-two">
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            You can use this website to see your money grow in forex trading, stocks trading, mutual funds,
+            UITF, Bancassurance, and Investments inside the bank.
+          </p>
+        </div>
+        <img src="img/grow-lazy.jpg" data-src="img/grow.jpg" alt="Plant" class="features__img lazy-img" />
+      </section>
+      <section class="feature-three">
+        <img src="img/card-lazy.jpg" data-src="img/card.jpg" alt="Credit card" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+           For every P10,000 of deposit inside the bank,
+           there is free debit card, passbook, bancassurance and cheque.
+          </p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="section " id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Operations</h2>
+      <h3 class="section__header">
+        Everything is as simple as possible, with simple clicks on the website.
+      </h3>
+    </div>
+
+    <section class="operations">
+      <section class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Instant Transfers
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Instant Loans
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Instant Closing
+        </button>
+      </section>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Transfer money to anyone, instantly! No fees.
+        </h5>
+        <p>
+         In some banks and financial institutions, you are required to pay a fee for money transfer.
+         In this digital bank, we provide no fees.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Buy a home or make your dreams come true, with instant loans.
+        </h5>
+        <p>
+          We are connected to different developers so you don't need to worry for the 
+        in-house financing of your house.
+        We will deduct in your savings the money needed to finance that dream home.        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          No longer need your account? No problem! Close it instantly.
+        </h5>
+        <p>
+          If you want to close your bank account,
+          you can typically find a "Close Account" or
+          "Account Closure" option in the account settings
+          or profile section.
+          It's important to note that the specific steps may vary.
+          To ensure a smooth process,
+          We recommend reaching out to the customer support team
+          of the website or bank for guidance on how to close
+          your account. This will be able to provide you with
+          the most accurate and up-to-date information.
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <section class="section " id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Not sure yet?</h2>
+      <h3 class="section__header">
+        Millions of Piggy Bankists are already making their life simpler.
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="testimonial">
+          <h5 class="testimonial__header">Best financial decision ever!</h5>
+          <blockquote class="testimonial__text">
+            Opening a bank account on a website can be a great decision for several reasons.
+            Firstly, it offers convenience and accessibility.
+            With a website, you can access your account anytime,
+            anywhere, without the need to visit a physical branch.
+            This means you can manage your finances, make transactions,
+            and check your balance with ease.
+
+            By opening a bank account on a website,
+            you can enjoy the convenience, features,
+            competitive rates, and security that online banking offers.
+            It's a decision that can simplify your financial life
+            and provide you with greater control over your money.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Aarav Lynn</h6>
+            <p class="testimonial__location">JP Rizal, Makati</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--2">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            A revolutionary way to fix my finances
+          </h5>
+          <blockquote class="testimonial__text">
+            "As someone who has been using digital banking
+            for quite some time now,
+            I can confidently say that it has
+            revolutionized the way I manage my finances.
+            The convenience and accessibility of
+            digital banking have truly made my life easier.
+            
+            Overall, digital banking has transformed the way I manage my money.
+            It's convenient, feature-rich, secure,
+            and has truly simplified my financial life.
+            I highly recommend giving it a try and unlocking the power
+            of digital banking for yourself."
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Miyah Miles</h6>
+            <p class="testimonial__location"> UP Diliman, Quezon City</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--3">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Finally free from old-school banks
+          </h5>
+          <blockquote class="testimonial__text">
+            "I recently switched to a digital bank
+            and it has been a game-changer for me.
+            The convenience of being able to manage
+            my finances from anywhere, at any time,
+            has made my life so much easier.
+            I no longer have to worry about rushing
+            to a physical branch before it closes
+            or waiting in long lines.
+            With just a few taps on my phone,
+            I can check my balance, transfer funds, and pay bills.
+
+            Overall, I can confidently say that switching
+            to a digital bank has been the best decision
+            I've made for my financial well-being.
+            The convenience, features, and security
+            have truly transformed the way I manage my money.
+            I highly recommend considering a digital bank for
+            anyone looking for a modern and hassle-free banking experience."
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Francis Gomes</h6>
+            <p class="testimonial__location">SM Aura, Taguig</p>
+          </address>
+        </div>
+      </div>
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up ">
+    <div class="section__title">
+      <h3 class="section__header">
+        The best day to join Bankist was one year ago. The second best is
+        today!
+      </h3>
+    </div>
+    <button class="btn btn--show-modal">Open your free account today!</button>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">About</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Pricing</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Terms of Use</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Privacy Policy</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Careers</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Blog</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    <img src="img/icon.png" alt="Logo" class="footer__logo" />
+    <p class="footer__copyright">
+      &copy; Copyright by
+      </a> Leslie Ann Riola </a> . This is for my Capstone project.
+    </p>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Open your bank account <br />
+      in just <span class="highlight">5 minutes</span>
+    </h2>
+    <form>
+      <section class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+      </section>
+      <section class="form-buttons">
+        <a class="next--step" href="login.html">Next &rarr;</a>
+        <a class="next--step" href="login.html">Log in </a>
+      </section>
+
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+</body>
+
+</html>
